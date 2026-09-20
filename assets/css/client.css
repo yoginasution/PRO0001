@@ -1,0 +1,67 @@
+/* ==========================================
+   CLIENT
+   ========================================== */
+
+
+/* MAC ADDRESS */
+
+.data-table code {
+    font-family:
+        Consolas,
+        Monaco,
+        monospace;
+
+    font-size: 11px;
+
+    background: #f3f4f6;
+
+    padding: 4px 7px;
+
+    border-radius: 5px;
+
+    color: #374151;
+}
+
+
+/* CLIENT TABLE */
+
+.client-table {
+    min-width: 1000px;
+}
+
+
+/* FORM */
+
+.client-form-panel {
+    max-width: 1100px;
+}
+
+
+/* STATUS */
+
+.status-badge {
+    white-space: nowrap;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-group.full {
+        grid-column: auto;
+    }
+
+}
+
+/* INLINE FORM */
+
+.inline-form {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}

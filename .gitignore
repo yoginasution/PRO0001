@@ -1,0 +1,23 @@
+# Konfigurasi lokal
+.env
+
+# Backup
+*.bak
+*.backup
+
+# Log
+*.log
+
+# Temporary files
+*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# XAMPP temporary
+xampp/
